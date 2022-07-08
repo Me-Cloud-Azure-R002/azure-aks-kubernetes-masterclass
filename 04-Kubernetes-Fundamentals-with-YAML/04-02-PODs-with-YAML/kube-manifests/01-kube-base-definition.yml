@@ -1,7 +1,10 @@
 apiVersion: 
 kind: 
 metadata:
-
+    name: ':::no-loc text="":::'
+    labels: ':::no-loc text=""::: <mandatory for Pods>'
+    namespace: 'default / :::no-loc text="":::'
+    app: ':::no-loc text=""::: <mandatory for deployments>'
 spec:
     
 # Types of Kubernetes Objects
