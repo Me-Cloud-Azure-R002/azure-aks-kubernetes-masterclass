@@ -48,6 +48,7 @@ spec:
         - name: environment variable name
         - value: environment variable value
       - ports: list of ports
+        - containerPort: port numbers listed in container definition
       - volumeMounts: list of volume mounts
         - name: volume mount name
         - mountPath: path to mount volume to
